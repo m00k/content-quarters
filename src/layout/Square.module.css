@@ -1,0 +1,14 @@
+.Square {
+  border-color: #bbb;
+  border-style: solid;
+  border-width: 2px;
+  height: min(90vh, 90vw);
+  width: min(90vh, 90vw);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: min(5vh, 5vw);
+  text-align: center;
+  color: #bbb;
+}

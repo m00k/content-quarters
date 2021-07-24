@@ -1,0 +1,33 @@
+.Quarter {
+  --border-radius: 1rem;
+  --gap: 1rem; /* TODO: magic number */
+  border-color: pink;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  height: 100%;
+  transform-origin: var(--transform-origin-horizontal) var(--transform-origin-vertical);
+  transition: ease-out 150ms;
+}
+
+.Quarter:hover {
+  border-radius: calc(var(--border-radius) / 2);
+  border-color: aliceblue;
+  transform: scale(2);
+}
+
+.top {
+  --transform-origin-vertical: calc(var(--gap) / -2);
+}
+
+.right {
+  --transform-origin-horizontal: calc( 100% + calc(var(--gap) / 2));
+}
+
+.bottom {
+  --transform-origin-vertical: calc( 100% + calc(var(--gap) / 2));
+}
+
+.left {
+  --transform-origin-horizontal: calc(var(--gap) / -2);
+}

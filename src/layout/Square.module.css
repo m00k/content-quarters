@@ -1,14 +1,17 @@
 .Square {
-  border-color: var(--cl-fg);
-  border-style: solid;
-  border-width: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+
   height: min(90vh, 90vw);
   width: min(90vh, 90vw);
 
-  display: grid;
+
+  /* display: grid;
   justify-content: center;
   align-items: center;
   font-size: min(5vh, 5vw);
   text-align: center;
-  color: var(--cl-fg);
+  color: var(--cl-fg); */
 }

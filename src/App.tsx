@@ -7,7 +7,7 @@ const App: Component = () => {
   return (
     <Center>
       <Square>
-        Perfectly Balanced
+        <code>we are the robots</code>
       </Square>
     </Center>
   );

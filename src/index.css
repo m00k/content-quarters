@@ -13,6 +13,10 @@ code {
 }
 
 #root {
-  background-color: #333;
   height: 100vh;
+}
+
+:root {
+  --cl-bg: #333;
+  --cl-fg: #bbb;
 }
